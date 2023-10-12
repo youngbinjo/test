@@ -9,7 +9,7 @@ node {
 
     stage('Build image') {
   
-       app = docker.build("youngbinjo/test:13")
+       app = docker.build("youngbinjo/test")
     }
 
     stage('Push image') {
